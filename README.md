@@ -11,7 +11,7 @@ each design in your stile and needs.
 
 ![App Screenshot](https://github.com/Daniels-not/Front-end-Adventure-Django/blob/master/111.PNG)
 ![App Screenshot](https://github.com/Daniels-not/Front-end-Adventure-Django/blob/master/222222.PNG)
-![App Screenshot](https://github.com/Daniels-not/Front-end-Adventure-Django/blob/master/33333333.PNG)
+![App Screenshot](https://github.com/Daniels-not/Front-end-Adventure-Django/blob/master/3333333333.PNG)
 
 
 ## Features
@@ -29,7 +29,8 @@ each design in your stile and needs.
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://portfolio-daniels-not.vercel.app/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramy-campusano-volquez-a110ba14a/)
 
-
 ## 🛠 Skills
-Javascript, HTML, CSS...
+
+![DJANGO](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![BOOTSTRAP](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
