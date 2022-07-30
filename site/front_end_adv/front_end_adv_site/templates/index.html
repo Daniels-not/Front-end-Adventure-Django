@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    {% extends "base.html" %} {% block content %}
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        background-color: #fdfdfd;
+      }
+
+      .head_text {
+        color: white;
+      }
+
+      .card {
+        box-shadow: 0 16px 48px #e3e7eb;
+      }
+    </style>
+
+    {% block sidebar %} {% include 'sidebar.html' %} {% endblock sidebar %}
+    <div class="container">
+      <div class="p-5 text-center">
+        <h1 class="mb-3">Adventure List</h1>
+      </div>
+      <div class="row">
+        <!-- Blog Entries Column -->
+        <div class="col-md-15 mt-3 left">
+          {% for post in post_list %}
+          <div class="card mb-4">
+            <div class="card-body">
+              <h2 class="card-title">{{ post.title }}</h2>
+              <strong class="card-text text-muted h6">
+                {{ post.author }} | {{ post.created_on}}
+              </strong>
+              <p class="card-text">{{post.content|slice:":400" }}</p>
+              <a
+                href="{% url 'post_detail' post.slug  %}"
+                class="btn btn-primary mt-1"
+                >Read More &rarr;</a
+              >
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {%endblock%}
+    <script src="" async defer></script>
+  </body>
+</html>
