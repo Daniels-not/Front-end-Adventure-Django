@@ -9,7 +9,9 @@ each design in your stile and needs.
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/Daniels-not/Front-end-Adventure-Django/blob/master/111.PNG)
+![App Screenshot](https://github.com/Daniels-not/Front-end-Adventure-Django/blob/master/222222.PNG)
+![App Screenshot](https://github.com/Daniels-not/Front-end-Adventure-Django/blob/master/33333333.PNG)
 
 
 ## Features
